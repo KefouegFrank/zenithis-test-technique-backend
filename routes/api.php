@@ -66,7 +66,7 @@ Route::prefix('v1')->group(function () {
     });
 });
 
-// API Documentation route (if you want to add documentation)
+// API Documentation route 
 Route::get('/', function () {
     return response()->json([
         'message' => 'Trip Management API',
